@@ -1,0 +1,35 @@
+ 
+.box-colores {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-color {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span{
+    color: white;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+.color-rojo{
+    background-color:red ;
+}
+
+.color-negro{
+    background-color: black;
+}
+
+.color-azul{
+    background-color: blue;
+}
