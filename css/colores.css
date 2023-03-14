@@ -23,12 +23,14 @@ h1{
     font-weight: 700;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(5, 45, 153);
 
 }
 h2{
     font-size: 2em;
     font-weight: 300;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(6, 24, 73);
 }
 
 .color-rojo{
@@ -65,4 +67,8 @@ h2{
 
 .color-EF2FD6{
     background-color: #EF2FD6;
+}
+
+body{
+    background-color: rgb(165, 224, 231);
 }
