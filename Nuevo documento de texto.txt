@@ -1,0 +1,76 @@
+        <tr class="fila-gris">
+            <th>Lorem ipsum olor amet</th>
+            <th class="verde">✔</th>
+            <th class="verde">✔</th>
+            <th class="verde">✔</th>
+            <th class="verde">✔</th>
+        </tr>
+        <tr>
+            <th>No accusia, petntium per</th>
+            <th class="gris">✘</th>
+            <th class="verde">✔</th>
+            <th class="verde">✔</th>
+            <th class="verde">✔</th>
+        </tr>
+        <tr class="fila-gris">
+            <th>Ne mutat eruditi per</th>
+            <th class="gris">✘</th>
+            <th class="verde">✔</th>
+            <th class="verde">✔</th>
+            <th class="verde">✔</th>
+        </tr>
+        <tr>
+            <th>Ne mutat eruditi per</th>
+            <th class="gris">✘</th>
+            <th class="gris">✘</th>
+            <th class="verde">✔</th>
+            <th class="verde">✔</th>
+        </tr>
+        <tr class="fila-gris">
+            <th>Ne mutat eruditi per</th>
+            <th class="gris">✘</th>
+            <th class="gris">✘</th>
+            <th class="verde">✔</th>
+            <th class="verde">✔</th>
+        </tr>
+        <tr>
+            <th>Ne mutat eruditi per</th>
+            <th class="gris">✘</th>
+            <th class="gris">✘</th>
+            <th class="gris">✘</th>
+            <th class="verde">✔</th>
+        </tr>
+        <tr class="fila-gris">
+            <th>Ne mutat eruditi per</th>
+            <th class="gris">✘</th>
+            <th class="gris">✘</th>
+            <th class="gris">✘</th>
+            <th class="verde">✔</th>
+ 
+       </tr>
+
+
+css
+
+
+.verde{
+    color: greenyellow;
+}
+.gris{
+    color: rgb(75, 72, 72);
+}
+.fila-gris{
+    background-color: rgb(233, 233, 233);
+}
+#cuadro1{
+    background-color: rgb(253, 122, 16);
+}
+#cuadro2{
+    background-color: rgb(247, 108, 9);
+}
+#plan{
+    background-color: rgb(57, 67, 75);
+}
+
+
+https://stock.adobe.com/es/images/pricing-table-tariff-comparison-list-price-plans-desk-and-prices-plan-grid-chart-template-vector-illustration/270974640
