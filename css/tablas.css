@@ -1,5 +1,12 @@
+body{
+    background-color: rgb(33, 43, 52);
+}
+
 h1{ 
     text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 600;
 }
 table{
     border-collapse: collapse;
@@ -15,12 +22,42 @@ th, td{
 .col-style{
     width: 150px;
 }
-.col-fam{
-    background-color: rgb(red, green, blue);
+.col-plan{
+    background-color:rgb(58, 67, 76) ;
     color: white;
-    border: 0;
 }
-
+.col-fam{
+    background-color: rgb(254, 123, 15);
+    color: white;
+}
+.col-bron{
+    background-color: rgb(250, 105, 14);
+    color: white;
+}
+.col-gold{
+    background-color: rgb(246, 77, 10);
+    color: white;
+}
+.col-platin{
+    background-color: rgb(232, 56, 6);
+    color: white;
+}
+.col-fam2{
+    background-color: rgb(254, 163, 48);
+    color: white;
+}
+.col-bron2{
+    background-color: rgb(255, 151, 42);
+    color: white;
+}
+.col-gold2{
+    background-color: rgb(255, 119, 23);
+    color: white;
+}
+.col-platin2{
+    background-color: rgb(248, 102, 19);
+    color: white;
+}
 .img-check{
     display: block;
     margin: 0 auto;
@@ -33,5 +70,14 @@ th, td{
     font-family: tahoma, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: center;
+}
+.barra{
+    border-right: 15px solid rgb(33, 43, 52);
+}
+.filagris{
+    background-color: rgb(240, 239, 244)
+}
+.filablanca{
+    background-color: rgb(255, 255, 255);
     
 }
