@@ -3,6 +3,7 @@
     padding: 0;
 }
 .main-menu{
+    
     background-color: #140f07;
     height: 54px;
     padding-bottom: 30px;
@@ -13,21 +14,22 @@
 .modulos{
     display: inline-block;
     margin: 20px 12px;
-    height: 24px;
+    height: 6px;
     text-align: center;
     padding:1px;
 }
-.modulos:hover{
-    border-bottom: solid 2px #2582ed;
-    color: #2582ed;
-}
+
 .links{
+    display: inline-block;
     text-decoration: none;
     color: white;
     font-size: 1.2em;
+    padding-bottom: 5px;
 }
 .links:hover{
     color: #2582ed;
+    border-bottom: solid 2px #2582ed;
+
 }
 .home{
     color: white;
@@ -42,11 +44,9 @@
 .home:hover{
     color: #2582ed;
 }
-
-
 .proyectos-box{
     margin-left: 52px;
-    margin-top: 30px;
+    margin-top: 40px;
     margin-bottom: 40px;
     border: solid 2px ;
     display: inline-block;
@@ -76,7 +76,6 @@
     margin-right: 10px;
     height: 20px;
     width: 30px;
-
     background-color: white;
     color: #2582ed;
     border: solid 2px #2582ed;
@@ -87,13 +86,6 @@
     color: white;
 
 }
-
-
-
-
-
-
-
 .redes-box{
     margin-left: 87px;
     padding-left: 15px;
@@ -184,4 +176,48 @@
 .LinkedIn:hover{
     color: white;
     background-color: #0262d0;
+}
+
+
+
+
+.informacion{
+    position: absolute;
+    display: inline-block;
+    width: 450px;
+    margin-top: 40px;
+    margin-left: 70px;
+    border: solid 2px black;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 6px;
+    padding-bottom: 12px;
+    
+
+}
+.titulo-info{
+    background-color: #000000;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 700;
+    border-radius: 12px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.div-imagen{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.imagen-info{
+    width: 160px;
+    height: 160px;
+    border-radius: 100px;
+    border: solid 2px #000000;
+}
+.li-informacion{
+    list-style: none;
+    line-height: 1.7em;
 }
