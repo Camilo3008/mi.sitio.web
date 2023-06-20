@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-box{
+    position: relative;
+    width: 90px;
+    height: 45px;
+    border-radius: 70px;
+    z-index: 1;
+}
+.main-box:hover {
+    cursor: pointer;
+}
+
+.main-box-off {
+    background-color: rgb(64,64,64);
+    transition: background-color 1s;
+}
+.main-box-on {
+    background-color: rgb(3,116,219);
+    transition: background-color 1s;
+}
+.contenedor-1{
+    position: relative;
+    top: -13px;
+    left: 7px;
+    width: 35px;
+    height: 35px;
+    background-color:whitesmoke;
+    border-radius: 55px;
+    transition: all 1s;
+    z-index: 11;
+}
+.contenedor-2{
+    position: relative;
+    top: -13px;
+    left: 50px;
+    width: 35px;
+    height: 35px;
+    background-color:whitesmoke;
+    border-radius: 55px;
+    transition: all 1s;
+    z-index: 11;
+}
+.text-on, .text-off {
+    position: relative;
+    font-size: 1em;
+    left: 8px;
+    top: 15px;
+    color: white;
+    z-index: 5;
+}
+.text-off {
+    left:28px;
+}
+
+/* Modo claro (por defecto) */
+
+.contenido{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+.titulo-prin{
+    font-size: 2.2em;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+}
+.text-prin{
+    color: black;
+}
+/* modo oscuro */
+
+.contenido-oscuro{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+.titulo-prin-oscuro{
+    font-size: 2.2em;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+.text-prin-oscuro{
+    color: white;
+}
