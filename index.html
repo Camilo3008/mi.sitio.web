@@ -2,70 +2,79 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Mi sitio web </title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio.</title>
+    <link rel="stylesheet" href="css/inicio.css">
     <link rel="stylesheet" href="icons/all.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
-
 </head>
 <body>
-    <div class="main-menu">
-        <nav>
-            <ul class="menu">
-                <li class="home" ><i class="fa-solid fa-house "></i></li>
-                <a class="links" href=""><li class="modulos">Fuentes</li></a>
-                <a class="links" href="colores.html"><li class="modulos">Colores</li></a>
-                <a class="links" href="margins.html"><li class="modulos">Margins, border and padding</li></a>
-                <a class="links" href="tablas.html"><li class="modulos">Tablas</li></a>
-                <a class="links" href="formularios.html"><li class="modulos">Formularios</li></a>
-                <a class="links" href="menu-iconos.html"><li class="modulos">Menu Iconos</li></a>
-                <a class="links" href="media-query.html"><li class="modulos">Media query</li></a>
-                <a class="links" href="transitions.html"><li class="modulos">Transiciones</li></a>
-                <a class="links" href="flexbox.html"><li class="modulos">Flex-box</li></a>
+        <nav class="nav nav-mc" id="nav">
+            <span id="nombre" class="nombre nombre-mc"><b>Camilo Alvarez</b></span>
+            <span id="logoHamburguer" class="logo-hamburguer logo-hamburguer-mc">&#9776</span>
+            <ul id="mainMenu" class="ul-menu">
+                <a id="modulo1" class="link-modulos link-modulos-mc" href="#box-actividades"><li class="modulos">Actividades</li></a>
+                <a id="modulo2" class="link-modulos link-modulos-mc" href="#box-proyectos"><li class="modulos">Proyectos</li></a>
+                <a id="modulo3" class="link-modulos link-modulos-mc" href="#"><li class="modulos">Informacion</li></a>
             </ul>
         </nav>
-    </div>
-    <div class="main-box">
-        <div class="proyectos-box">
-            <h3 class="titulo-proyectos">Mis proyectos :</h3>
-            <ul class="box-listaproyectos">
-                <li class="proyectos"> ➢ lorem ipsum dolor sit amet consectetur.</li><button class="boton-ir">Ir</button><br>
-                <li class="proyectos"> ➢ lorem ipsum dolor sit amet consectetur.</li><button class="boton-ir">Ir</button><br>
-                <li class="proyectos"> ➢ lorem ipsum dolor sit amet consectetur.</li><button class="boton-ir">Ir</button><br>
-                <li class="proyectos"> ➢ lorem ipsum dolor sit amet consectetur.</li><button class="boton-ir">Ir</button><br>
-                <li class="proyectos"> ➢ lorem ipsum dolor sit amet consectetur.</li><button class="boton-ir">Ir</button><br>
-                <li class="proyectos"> ➢ lorem ipsum dolor sit amet consectetur.</li><button class="boton-ir">Ir</button><br>
-            </ul>
+
+        <div class="box-redes">
+            <div id="bloque-red-1" class="bloque-red"><a id="red-1" class="link-redes" href=""><i class="fa-brands fa-facebook"></i></a></div>
+            <div id="bloque-red-2" class="bloque-red"><a id="red-2" class="link-redes" href=""><i class="fa-brands fa-github"></i></a></div>
+            <div id="bloque-red-3" class="bloque-red"><a id="red-3" class="link-redes" href=""><i class="fa-brands fa-linkedin"></i></a></div>
+        </div>   
+
+        <div id="modoOscuro" class="toggle toggle-off ">
+            <div id="circle"  class="circle-1"></div>
+            <i id="icono-MO" class="fa-solid fa-moon  luna "></i>
+            <i class="fa-solid fa-sun  sol"></i>
         </div>
 
-        <div class="informacion">
-            <div class="titulo-info">Informacion:</div>
-            <div class="div-imagen"><img class="imagen-info" src="img/fotoperfil.png" alt=""></div>
-            <div class="contenido-info" >
-                <ul>
-                    <li class="li-informacion"><b>Nombre:</b> Juan Camilo Alvarez Molano.</li>
-                    <li class="li-informacion"><b>Formacion:</b> Tecnologo en  Analisis y desarrollo de software.</li>
-                    <li class="li-informacion"><b>Id:</b> 2669959.</li>
-                    
-                </ul>
+        <div id="box-actividades" class="box-actividades box-actividades-mc">
+            <div class="title-actividades"><p id="title-actividades" class="color-T-C">Actividades!!</p></div>
+            <div class="actividades">
+             <a id="link-act-1" href="#" class="link-act link-act-mc">1. Fuentes</a>
+             <a id="link-act-2" href="colores.html" class="link-act link-act-mc">2. Colores </a>
+             <a id="link-act-3" href="margins.html" class="link-act link-act-mc">3. Margins, padding</a>
+             <a id="link-act-4" href="tablas.html" class="link-act link-act-mc">4. Tablas</a>
+             <a id="link-act-5" href="formularios.html" class="link-act link-act-mc">5. Formularios</a>
+             <a id="link-act-6" href="menu-iconos.html" class="link-act link-act-mc">6. Menu iconos</a>
+             <a id="link-act-7" href="media-query.html" class="link-act link-act-mc">7. Media query</a>
+             <a id="link-act-8" href="transitions.html" class="link-act link-act-mc">8. Transiciones</a>
+             <a id="link-act-9" href="menu-sub-items.html" class="link-act link-act-mc">9. Menu desplegable</a>
+             <a id="link-act-10" href="flexbox.html" class="link-act link-act-mc">10. Flexbox</a>
+             <a id="link-act-11" href="grid.html" class="link-act link-act-mc">11. Grid</a>
             </div>
         </div>
 
-        <div class="redes-box">
-            <div class="cuadrosRedes Facebook"><i class="fa-brands fa-facebook iconRedes"></i></div>
-            <div class="cuadrosRedes Instagram"><i class="fa-brands fa-instagram iconRedes"></i></div>
-            <div class="cuadrosRedes gmail"><i class="fa-regular fa-envelope iconRedes"></i></div>
-            <div class="cuadrosRedes WhatsApp"><i class="fa-brands fa-whatsapp iconRedes"></i></div>
-            <br>
-            <div class="cuadrosRedes GitHub"><i class="fa-brands fa-github iconRedes"></i></div>
-            <div class="cuadrosRedes Twiter"><i class="fa-brands fa-twitter iconRedes"></i></div>
-            <div class="cuadrosRedes stack-overflow"><i class="fa-brands fa-stack-overflow iconRedes"></i></div>
-            <div class="cuadrosRedes LinkedIn"><i class="fa-brands fa-linkedin iconRedes"></i></div>
+
+        <div id="box-proyectos" class="box-proyectos box-proyectos-mc">
+            <div id="titulo-proyect" class="titulo-proyect titulo-proyect-mc"><p>Mis proyectos.</p></div>
+            <div id="proyecto1" class="proyectos proyectos-mc"><h3 id="SubT-proyecto1" class="SubT-proyecto SubT-proyecto-mc ">Proyecto 1.</h3>
+                <p class="proyect-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In hic minus explicabo cum illo rerum distinctio cupiditate magnam modi cumque aliquid repellendus, est at officia nam sunt odio, suscipit vero!
+                Numquam rerum quod eveniet architecto, nihil voluptate natus fuga.
+                </p>
+                <button id="proyect-boton1" class="proyect-boton proyect-boton-mc">Ir</button>
+            </div>
+            <div id="proyecto2" class="proyectos proyectos-mc"><h3 id="SubT-proyecto2" class="SubT-proyecto SubT-proyecto-mc ">Proyecto 2.</h3>
+                <p class="proyect-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In hic minus explicabo cum illo rerum distinctio cupiditate magnam modi cumque aliquid repellendus, est at officia nam sunt odio, suscipit vero!
+                Numquam rerum quod eveniet architecto, nihil voluptate natus fuga.
+                </p>
+                <button id="proyect-boton2" class="proyect-boton proyect-boton-mc">Ir</button>
+            </div>
+            <div id="proyecto3" class="proyectos proyectos-mc"><h3 id="SubT-proyecto3" class="SubT-proyecto SubT-proyecto-mc">Proyecto 3.</h3>
+                <p class="proyect-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In hic minus explicabo cum illo rerum distinctio cupiditate magnam modi cumque aliquid repellendus, est at officia nam sunt odio, suscipit vero!
+                Numquam rerum quod eveniet architecto, nihil voluptate natus fuga.
+                </p>
+                <button id="proyect-boton3" class="proyect-boton proyect-boton-mc">Ir</button>
+            </div>
         </div>
 
-    </div>
-</body>
+        <div class="box-infomacion">
+
+        </div>
+
+
+        <script src="js/inicio.js"></script>
+   </body>
 </html>
