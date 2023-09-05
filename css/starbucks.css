@@ -55,10 +55,22 @@ h1{
   font-weight: 500;
 }
 .title-color{
-  color: #02633b;
+/*   color: #02633b; */
   font-weight: 900;
   font-size: 1.3em;
 }
+.title-color-green{
+  color: #02633b;
+}
+.title-color-rose{
+  color:rgb(213, 104, 136) ;
+}
+.title-color-pink{
+  color: rgb(215, 81, 176);
+}
+
+
+
 .main-content{
   margin-top: 140px;
   display: grid;
@@ -91,6 +103,7 @@ h1{
 }
 .button-learn:hover{
   cursor: pointer;
+  background-color: #05472b;
 }
 .product-img {
   grid-area: product-img;
@@ -107,6 +120,9 @@ h1{
   flex-direction: column;
   gap: 40px;
   margin-top: -100px;
+}
+.social-media >i{
+  cursor: pointer;
 }
 
 footer{

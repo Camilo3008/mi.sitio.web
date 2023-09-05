@@ -21,6 +21,7 @@ let act9 = document.getElementById("link-act-9")
 let act10 = document.getElementById("link-act-10")
 let act11 = document.getElementById("link-act-11")
 let act12 = document.getElementById("link-act-12")
+let act13 = document.getElementById("link-act-13")
 
 let bloqueRed1 = document.getElementById("bloque-red-1")
 let bloqueRed2 = document.getElementById("bloque-red-2")
@@ -111,6 +112,10 @@ modoOscuro.addEventListener("click", function(){
         act11.classList.remove("link-act-mc")
         act12.classList.add("link-act-mo")
         act12.classList.remove("link-act-mc")
+        act13.classList.add("link-act-mo")
+        act13.classList.remove("link-act-mc")
+
+
         bloqueRed1.classList.add("bloque-red-mo")
         bloqueRed1.classList.remove("bloque-red")
         bloqueRed2.classList.add("bloque-red-mo")
@@ -196,6 +201,8 @@ modoOscuro.addEventListener("click", function(){
         act11.classList.add("link-act-mc")
         act12.classList.remove("link-act-mo")
         act12.classList.add("link-act-mc")
+        act13.classList.remove("link-act-mo")
+        act13.classList.add("link-act-mc")
         bloqueRed1.classList.remove("bloque-red-mo")
         bloqueRed1.classList.add("bloque-red")
         bloqueRed2.classList.remove("bloque-red-mo")
