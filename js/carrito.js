@@ -46,7 +46,7 @@ boxMinus.addEventListener("click", function(){
         if (boxUnidades.innerHTML == 1){
             document.getElementById("cantProducto").innerHTML = boxUnidades.innerHTML + "Producto ";
         
-        }else if(boxUnidades.innerHTML >=2){
+        }else {
             document.getElementById("cantProducto").innerHTML = boxUnidades.innerHTML + "Productos";
         }
 
