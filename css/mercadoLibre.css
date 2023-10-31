@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+header{
+    background-color: #fff159;
+    height: 50px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template: "logo barra iconos"/
+                     80px  1fr 80px ; 
+}
+.img-logo{
+    grid-area: logo;
+    width: 50px;
+    margin-left: 10px;
+}
+.icono{
+    color: black;
+    font-size: 1.2em;
+    margin: 0px 0px 7px 7px;
+}
+.barra{
+    grid-area: barra;
+    border: none;
+    height: 30px;
+}
+
+.content-icons{
+    grid-area: iconos;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+}
+
+
+.box-producto{
+    width: 200px;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.parrafo-js{
+    background-color: aliceblue;
+}
