@@ -1,6 +1,6 @@
 let mainContent = document.getElementById("mainContent")
 
-let boxProducto = document.createElement("div")   //ingresamos un elemento, puedfde ser vualquier cosa.
+let boxProducto = document.createElement("div")   //ingresamos un elemento, puede ser vualquier cosa.
 
 
 
@@ -11,7 +11,6 @@ boxProducto.setAttribute("class", "box-producto")    //atributo y su respecctivo
 
 
 
-
 let marcaProducto = document.createElement("label")
 mainContent.appendChild(marcaProducto)
 
@@ -19,8 +18,18 @@ let nodoMarcaProducto = document.createTextNode("Mazda")
 
 marcaProducto.appendChild(nodoMarcaProducto)
 
+/* cargar modelo */
+/* cx-s */
+/* precio */
+/* año */
+/* kilometraje */
 
 
+
+
+
+
+/* Cargar imagen */
 let imgProducto = document.createElement("img")
 
 mainContent.appendChild(imgProducto)
