@@ -38,13 +38,47 @@ header{
     margin-left: 5px;
 }
 
-
-.box-producto{
-    width: 200px;
-    height: 200px;
-    background-color: cadetblue;
-}
-
 .parrafo-js{
     background-color: aliceblue;
+}
+.box-producto{
+    width: 100%;
+    height: 150px;
+    display: grid;
+    grid-template: "box-imagen  box-info-producto"/
+                    7fr         10fr  ;
+
+}
+.box-imagen{
+    grid-area: box-imagen; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-info-producto{
+    grid-area: box-info-producto;
+
+}
+.img-producto{
+    width: 90%;
+}
+
+
+
+.info-principal{
+    font-size: 0.9em; 
+    color: rgb(64, 64, 64);
+    display: inline-block;
+    margin-left: 4px; 
+}
+.precio{
+    font-size: 1.2em;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.info-secundaria{
+    font-size: 0.7em; 
+    color: rgb(100, 100, 100);
+    display: inline-block;
 }
