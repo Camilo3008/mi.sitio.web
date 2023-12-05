@@ -13,39 +13,49 @@ class Automovil{
 
 }
 
-let auto1 = new Automovil("Mazda", "Grand Touring Lx", 65000000, 2017, 36000, " Usaquen - Bogota D.C", "img/mazda1.webp");  //instanciamos el objeto.  
+let auto1 = new Automovil("Mazda", "Grand Touring Lx", "65.000.000", 2017, 36000, " Usaquen - Bogota D.C", "img/mazda1.webp");  //instanciamos el objeto.  
 
-let auto2 = new Automovil("Mazda", "3 2.0 Grand Touring", 74000000, 2018, 40000, "Pitalito-Huila", "img/mazda2.png"  ); 
+let auto2 = new Automovil("Mazda", "3 2.0 Grand Touring", "74.000.000", 2018, 40000, "Pitalito-Huila", "img/mazda2.png"  ); 
 
-let auto3 = new Automovil("Mazda", "CX-5 2.0  Mid Fwd", 70000000, 2014, 116000, "Pitalito-Huila", "img/mazda4.webp"  ); 
+let auto3 = new Automovil("Mazda", "CX-5 2.0  Mid Fwd", "70.000.000", 2014, 116000, "Pitalito-Huila", "img/mazda4.webp"  ); 
 
 
-let auto4 = new Automovil("Yamaha", "R6", 75000000, 2019, 56000, "Medellin-Antioquia", "img/yamaha1.webp"  ); 
+let auto4 = new Automovil("Yamaha", "R6", "75.000.000", 2019, 56000, "Medellin-Antioquia", "img/yamaha1.webp"  ); 
 
-let auto5 = new Automovil("Yamaha", "Mt-09", 47000000, 2019, 22000, "Cartagena- ", "img/yamaha2.webp"  ); 
+let auto5 = new Automovil("Yamaha", "Mt-09", "47.000.000", 2019, 22000, "Cartagena- ", "img/yamaha2.webp"  ); 
 
 
 
 let boxProductos = document.getElementById("boxProductos")
 
-cargarAutomovil(auto4)
-cargarAutomovil(auto5)
-
-let inputBusqueda = document.getElementById("inputBusqueda").value
 
 window.addEventListener("keydown", (event) =>{
 
+    let inputBusqueda = document.getElementById("inputBusqueda").value
+
     if (event.key == "Enter" ){
-        if(inputBusqueda.innerHTML == "mazda"){
+
+        boxProductos.innerHTML = "";
+        
+        let inputBusquedaAux = inputBusqueda.toLowerCase()
+
+        if(inputBusquedaAux == "mazda"){
             cargarAutomovil(auto1)
             cargarAutomovil(auto2)
             cargarAutomovil(auto3)
         }
-
+        else if (inputBusquedaAux == "yamaha"){
+            cargarAutomovil(auto4)
+            cargarAutomovil(auto5)
+        }
     }
 })
 
-
+cargarAutomovil(auto1)
+cargarAutomovil(auto2)
+cargarAutomovil(auto3)
+cargarAutomovil(auto4)
+cargarAutomovil(auto5)
 
 
 
