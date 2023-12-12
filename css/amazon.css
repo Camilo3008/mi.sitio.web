@@ -38,8 +38,10 @@ input{
 .relleno-barra{
     height: 30px;
     background-color: rgb(231, 231, 34);
+    width: 0;
+    transition:  with 1200ms ;
 }
-.bar-1{
+/* .bar-1{
     width: 140px;
 }
 .bar-2{
@@ -53,4 +55,8 @@ input{
 }
 .bar-5{
     width: 60px;
-}
+} */
+
+
+
+
